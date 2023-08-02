@@ -1,32 +1,12 @@
+import React from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <header className="container-fluid">
-        <div className="row justify-content-center">
-          <div className="col-4 text-start">
-            <h3 id="my-tinerary">My Tinerary</h3>
-          </div>
-          <div className="col-4 text-end">
-            <nav>
-              <a href="./index.html" id="home" className="me-4 text-black">
-                Home
-              </a>
-              <a href="./cities.html" id="cities" className="me-4 text-black">
-                Cities
-              </a>
-              <a
-                href="./login"
-                id="login"
-                className="btn btn-primary px-4 mb-1"
-              >
-                Login
-              </a>
-            </nav>
-          </div>
-        </div>
-      </header>
+      <Header />
       <main className="container-fluid">
         <div className="row justify-content-center mainClass">
           <div className="col-4 text-start ">
@@ -47,7 +27,7 @@ function App() {
           </div>
         </div>
       </main>
-      <footer></footer>
+      <Footer />
     </>
   );
 }
