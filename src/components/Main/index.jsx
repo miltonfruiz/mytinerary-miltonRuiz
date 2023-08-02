@@ -17,9 +17,62 @@ function Main() {
             Viem More
           </button>
         </div>
-        <div className="col-4 text-start">
-          <img src="" alt="" />
+        <div className="col-4 text-end">
+          <img src="src\assets\rectangule.png" alt="fill-img" />
         </div>
+      </div>
+      <div
+        id="carouselExampleInterval"
+        class="row carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner row">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="src\assets\tokio\tokio1.png"
+              class=""
+              alt="..."
+              width="200"
+              height="200"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="src\assets\tokio\tokio2.png"
+              class=""
+              alt="..."
+              width="200"
+              height="200"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="src\assets\tokio\tokio3.png"
+              class=""
+              alt="..."
+              width="200"
+              height="200"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleInterval"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </main>
   );
