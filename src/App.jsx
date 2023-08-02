@@ -1,13 +1,13 @@
 import React from "react";
 import Layouts from "./layouts/Layouts";
-import Main from "./components/Main";
 import "./App.css";
+import Contacto from "./pages/Contacto";
 
 function App() {
   return (
     <>
       <Layouts>
-        <Main />
+        <Contacto />
       </Layouts>
     </>
   );

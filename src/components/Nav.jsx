@@ -14,8 +14,13 @@ function Nav() {
   ];
   return (
     <nav>
-      {data.map((each) => (
-        <Anchor href={each.href} clase={each.clase} titulo={each.titulo} />
+      {data.map((each, key) => (
+        <Anchor
+          key={key}
+          href={each.href}
+          clase={each.clase}
+          titulo={each.titulo}
+        />
       ))}
     </nav>
   );
