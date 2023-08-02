@@ -16,13 +16,13 @@ function App() {
               <a href="./cities.html" id="cities" className="me-4 text-black">
                 Cities
               </a>
-              <button
-                type="button"
+              <a
+                href="./login"
                 id="login"
-                class="btn btn-primary px-4 mb-1"
+                className="btn btn-primary px-4 mb-1"
               >
                 Login
-              </button>
+              </a>
             </nav>
           </div>
         </div>
