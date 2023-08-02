@@ -9,7 +9,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: whitesmoke;
+
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -62,4 +62,14 @@
 }
 #login {
   font-size: 14px;
+}
+
+#find {
+  font-size: 20px;
+}
+#our {
+  font-size: 12px;
+}
+.mainClass {
+  margin-top: 50px;
 }
