@@ -5,7 +5,6 @@ export default function Contacto() {
   return (
     <>
       <Main />
-      <h3>Vista de contacto</h3>
     </>
   );
 }

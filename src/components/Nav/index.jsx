@@ -3,13 +3,13 @@ import Anchor from "../Anchor";
 
 function Nav() {
   let data = [
-    { href: "#", clase: "me-4 text-black", titulo: "My Tinerary" },
-    { href: "home.html", clase: "me-4 text-black", titulo: "Home" },
-    { href: "cities.html", clase: "me-4 text-black", titulo: "Cities" },
+    { link: "#", styles: "me-4 text-black", tittle: "My Tinerary" },
+    { link: "home.html", styles: "me-4 text-black", tittle: "Home" },
+    { link: "cities.html", styles: "me-4 text-black", tittle: "Cities" },
     {
-      href: "login.html",
-      clase: "btn btn-primary px-4 mb-1",
-      titulo: "Login",
+      link: "login.html",
+      styles: "btn btn-primary px-4 mb-1",
+      tittle: "Login",
     },
   ];
   return (
@@ -17,9 +17,9 @@ function Nav() {
       {data.map((each, key) => (
         <Anchor
           key={key}
-          href={each.href}
-          clase={each.clase}
-          titulo={each.titulo}
+          link={each.link}
+          styles={each.styles}
+          tittle={each.tittle}
         />
       ))}
     </nav>
