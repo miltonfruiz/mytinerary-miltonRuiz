@@ -1,7 +1,11 @@
 import React from "react";
 
-function Anchor() {
-  return <div>Anchor</div>;
+export default function Anchor({ href, clase, contenido }) {
+  return (
+    <>
+      <a href={href} className={clase}>
+        {contenido}
+      </a>
+    </>
+  );
 }
-
-export default Anchor;
