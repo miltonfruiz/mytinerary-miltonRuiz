@@ -3,6 +3,7 @@ import Anchor from "./Anchor";
 
 function Nav() {
   let data = [
+    { href: "#", clase: "me-4 text-black", titulo: "My Tinerary" },
     { href: "home.html", clase: "me-4 text-black", titulo: "Home" },
     { href: "cities.html", clase: "me-4 text-black", titulo: "Cities" },
     {

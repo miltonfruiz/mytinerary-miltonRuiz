@@ -6,7 +6,9 @@ function Header() {
       <nav>
         <div className="row justify-content-center">
           <div className="col-4 text-start">
-            <h3 id="my-tinerary">My Tinerary</h3>
+            <a href="./index.html" id="home" className="ms-2 text-black">
+              My Tinerary
+            </a>
           </div>
           <div className="col-4 text-end">
             <a href="./index.html" id="home" className="me-4 text-black">
