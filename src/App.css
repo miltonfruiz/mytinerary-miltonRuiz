@@ -71,5 +71,8 @@
   font-size: 12px;
 }
 .mainClass {
-  margin-top: 50px;
+  margin-top: 300px;
+}
+#carouselDiv {
+  margin-top: 200px;
 }
