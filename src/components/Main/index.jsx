@@ -2,13 +2,13 @@ import React from "react";
 
 function Main() {
   return (
-    <main className="container-fluid">
-      <div className="row justify-content-center mainClass">
-        <div className="col-4 text-start ">
-          <h3 className="col mb-4" id="find">
+    <main class="container-fluid">
+      <div class="row justify-content-center mainClass">
+        <div class="col-4 text-start ">
+          <h3 class="col mb-4" id="find">
             Find the perfect destination
           </h3>
-          <h6 className="col mb-4 text-start" id="our">
+          <h6 class="col mb-4 text-start" id="our">
             Our app will help you find the perfect path for your next trip. With
             an easy-to-use interface and a host of itinerary options, planning
             your next trip has never been easier.
@@ -17,101 +17,111 @@ function Main() {
             Viem More
           </button>
         </div>
-        <div className="col-4 text-end">
+        <div class="col-4 text-end">
           <img src="src\assets\rectangule.png" alt="fill-img" />
         </div>
       </div>
-      <div id="carouselDiv" class="row carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner row">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img
-              src="src\assets\tokio\tokio1.png"
-              class=""
-              alt="..."
-              width="200"
-              height="200"
-            />
-            <img
-              src="src\assets\tokio\tokio1.png"
-              class=""
-              alt="..."
-              width="200"
-              height="200"
-            />
-            <img
-              src="src\assets\tokio\tokio1.png"
-              class=""
-              alt="..."
-              width="200"
-              height="200"
-            />
-            <img
-              src="src\assets\tokio\tokio1.png"
-              class=""
-              alt="..."
-              width="200"
-              height="200"
-            />
+      <div
+        id="carouselDiv"
+        class="row carousel slide content-center "
+        data-bs-ride="carousel"
+      >
+        <div class="container text-center divPopular">
+          <p>Popular Mytineraries</p>
+        </div>
+        <div class="carousel-inner imgDiv">
+          <div
+            class="carousel-item active container-fluid"
+            data-bs-interval="10000"
+          >
+            <div class="d-flex justify-content-center">
+              <div class="m-1 img1 row">
+                <div class="textcontainer">
+                  <p class="imgp">Tokyo</p>
+                  <p class="imgsub">Japan</p>
+                </div>
+              </div>
+              <div class="m-1 img2">
+                <div class="textcontainer">
+                  <p class="imgp">New york</p>
+                  <p class="imgsub">Usa</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="m-1 img3">
+                <div class="textcontainer">
+                  <p class="imgp">París</p>
+                  <p class="imgsub">France</p>
+                </div>
+              </div>
+              <div class="m-1 img4">
+                <div class="textcontainer">
+                  <p class="imgp">Seoul</p>
+                  <p class="imgsub">South Korea</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img
-              src="src\assets\tokio\tokio2.png"
-              class=""
-              alt="..."
-              width="200"
-              height="200"
-            />
-            <img
-              src="src\assets\tokio\tokio2.png"
-              class=""
-              alt="..."
-              width="200"
-              height="200"
-            />
-            <img
-              src="src\assets\tokio\tokio2.png"
-              class=""
-              alt="..."
-              width="200"
-              height="200"
-            />
-            <img
-              src="src\assets\tokio\tokio2.png"
-              class=""
-              alt="..."
-              width="200"
-              height="200"
-            />
+            <div class="d-flex justify-content-center">
+              <div class="m-1 img1 row">
+                <div class="textcontainer">
+                  <p class="imgp">Tokyo</p>
+                  <p class="imgsub">Japan</p>
+                </div>
+              </div>
+              <div class="m-1 img2">
+                <div class="textcontainer">
+                  <p class="imgp">New york</p>
+                  <p class="imgsub">Usa</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="m-1 img3">
+                <div class="textcontainer">
+                  <p class="imgp">París</p>
+                  <p class="imgsub">France</p>
+                </div>
+              </div>
+              <div class="m-1 img4">
+                <div class="textcontainer">
+                  <p class="imgp">Seoul</p>
+                  <p class="imgsub">South Korea</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div class="carousel-item">
-            <img
-              src="src\assets\tokio\tokio3.png"
-              class=""
-              alt="..."
-              width="200"
-              height="200"
-            />
-            <img
-              src="src\assets\tokio\tokio3.png"
-              class=""
-              alt="..."
-              width="200"
-              height="200"
-            />
-            <img
-              src="src\assets\tokio\tokio3.png"
-              class=""
-              alt="..."
-              width="200"
-              height="200"
-            />
-            <img
-              src="src\assets\tokio\tokio3.png"
-              class=""
-              alt="..."
-              width="200"
-              height="200"
-            />
+            <div class="d-flex justify-content-center">
+              <div class="m-1 img1 row">
+                <div class="textcontainer">
+                  <p class="imgp">Tokyo</p>
+                  <p class="imgsub">Japan</p>
+                </div>
+              </div>
+              <div class="m-1 img2">
+                <div class="textcontainer">
+                  <p class="imgp">New york</p>
+                  <p class="imgsub">Usa</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="m-1 img3">
+                <div class="textcontainer">
+                  <p class="imgp">París</p>
+                  <p class="imgsub">France</p>
+                </div>
+              </div>
+              <div class="m-1 img4">
+                <div class="textcontainer">
+                  <p class="imgp">Seoul</p>
+                  <p class="imgsub">South Korea</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <button
