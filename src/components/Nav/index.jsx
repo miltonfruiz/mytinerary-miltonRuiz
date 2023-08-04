@@ -8,14 +8,14 @@ function Nav() {
       href: "#",
       styles: "me-4 text-black ms-2",
       tittle: "My Tinerary",
-      position: "col-5 text-start",
+      position: "col-5 text-start my-tinerary",
       name: "my-tinerary",
     },
     {
       href: "home.html",
       styles: "me-4 text-black",
       tittle: "Home",
-      position: "col-1 text-end",
+      position: "col-1 text-end home",
       name: "home",
     },
     {
@@ -29,7 +29,7 @@ function Nav() {
       href: "login.html",
       styles: "btn btn-primary px-4",
       tittle: "Login",
-      position: "col-1",
+      position: "col-1 login",
       name: "login",
     },
   ];
