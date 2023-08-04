@@ -1,12 +1,14 @@
 import React from "react";
-import Style from "../Anchor";
+import "./style.css";
 
-export default function Anchor({ href, styles, tittle }) {
+export default function Anchor({ href, styles, tittle, position, name }) {
   return (
     <>
-      <a href={href} className={styles}>
-        {tittle}
-      </a>
+      <div className={position}>
+        <a href={href} id={name} className={styles}>
+          {tittle}
+        </a>
+      </div>
     </>
   );
 }
