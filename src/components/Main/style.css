@@ -1,0 +1,72 @@
+#find {
+  font-size: 20px;
+}
+#our {
+  font-size: 12px;
+}
+.mainClass {
+  margin-top: 300px;
+}
+#carouselDiv {
+  margin-top: 170px;
+}
+.imgDiv {
+  margin-top: 60px;
+}
+
+.textcontainer {
+  width: 100%;
+  height: 16%;
+  background-color: black;
+  opacity: 40%;
+  color: white;
+  text-align: center;
+}
+.imgp {
+  font-size: 14px;
+  margin-bottom: -2px;
+}
+.img1 {
+  display: flex;
+  justify-content: center;
+  width: 190px;
+  height: 230px;
+  align-items: self-end;
+  background: url(/src/assets/tokio/tokio1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.imgsub {
+  margin-bottom: 4px;
+  font-size: 11px;
+}
+.img2 {
+  display: flex;
+  justify-content: center;
+  width: 190px;
+  height: 230px;
+  align-items: self-end;
+  background: url(/src/assets/newyork/newyork1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img3 {
+  display: flex;
+  justify-content: center;
+  width: 190px;
+  height: 230px;
+  align-items: self-end;
+  background: url(/src/assets/paris/paris1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.img4 {
+  display: flex;
+  justify-content: center;
+  width: 190px;
+  height: 230px;
+  align-items: self-end;
+  background: url(/src/assets/seoul/seoul1.jpg);
+  background-size: cover;
+  background-position: center;
+}
