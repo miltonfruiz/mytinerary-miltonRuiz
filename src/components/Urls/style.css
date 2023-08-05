@@ -15,40 +15,40 @@
   font-size: 11px;
 }
 .img1 {
-  background: url(/src/assets/tokio/tokio1.jpg);
+  background: url(/public/tokio/tokio1.jpg);
 }
 .img2 {
-  background: url(/src/assets/newyork/newyork1.jpg);
+  background: url(/public/newyork/newyork1.jpg);
 }
 .img3 {
-  background: url(/src/assets/paris/paris1.jpg);
+  background: url(/public/paris/paris1.jpg);
 }
 .img4 {
-  background: url(/src/assets/seoul/seoul1.jpg);
+  background: url(/public/seoul/seoul1.jpg);
 }
 .img5 {
-  background: url(/src/assets/tokio/tokio2.jpg);
+  background: url(/public/tokio/tokio2.jpg);
 }
 .img6 {
-  background: url(/src/assets/newyork/newyork2.jpg);
+  background: url(/public/newyork/newyork2.jpg);
 }
 .img7 {
-  background: url(/src/assets/paris/paris2.jpg);
+  background: url(/public/paris/paris2.jpg);
 }
 .img8 {
-  background: url(/src/assets/seoul/seoul2.jpg);
+  background: url(/public/seoul/seoul2.jpg);
 }
 .img9 {
-  background: url(/src/assets/tokio/tokio3.jpg);
+  background: url(/public/tokio/tokio3.jpg);
 }
 .img10 {
-  background: url(/src/assets/newyork/newyork3.jpg);
+  background: url(/public/newyork/newyork3.jpg);
 }
 .img11 {
-  background: url(/src/assets/paris/paris3.jpg);
+  background: url(/public/paris/paris3.jpg);
 }
 .img12 {
-  background: url(/src/assets/seoul/seoul3.jpg);
+  background: url(/public/seoul/seoul3.jpg);
 }
 .imgConfig {
   display: flex;
