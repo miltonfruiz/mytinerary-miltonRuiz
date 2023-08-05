@@ -36,7 +36,7 @@ function Main() {
             data-bs-interval="10000"
           >
             <div class="d-flex justify-content-center">
-              <div class="m-1 img1 row">
+              <div class="m-1 img1">
                 <div class="textcontainer">
                   <p class="imgp">Tokyo</p>
                   <p class="imgsub">Japan</p>
