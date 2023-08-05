@@ -6,7 +6,7 @@ function Nav() {
   let data = [
     {
       href: "#",
-      styles: "me-4 text-black ms-2",
+      styles: "me-4 text-black",
       tittle: "My Tinerary",
       position: "col-5 text-start my-tinerary",
       name: "my-tinerary",
