@@ -1,22 +1,12 @@
 import React from "react";
 
-export default function Urls({
-  row,
-  imgContainer,
-  textContainer,
-  mainTitle,
-  subTitle,
-  mainName,
-  subName,
-}) {
+export default function Urls({ numberImage, city, country }) {
   return (
     <>
-      <div className={row}>
-        <div className={imgContainer}>
-          <div className={textContainer}>
-            <p className={mainTitle}>{mainName}</p>
-            <p className={subTitle}>{subName}</p>
-          </div>
+      <div className={numberImage}>
+        <div className="textcontainer">
+          <p className="imgp">{city}</p>
+          <p className="imgsub">{country}</p>
         </div>
       </div>
     </>
