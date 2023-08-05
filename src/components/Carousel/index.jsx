@@ -4,66 +4,66 @@ import Urls from "../Urls";
 function Carousel() {
   let firsContainer = [
     {
-      numberImage: "m-1 img1",
+      imageClass: "m-1 img1 imgConfig",
       city: "Tokio",
       country: "Japan",
     },
     {
-      numberImage: "m-1 img2",
+      imageClass: "m-1 img2 imgConfig",
       city: "New York",
       country: "USA",
     },
     {
-      numberImage: "m-1 img3",
+      imageClass: "m-1 img3 imgConfig",
       city: "París",
       country: "France",
     },
     {
-      numberImage: "m-1 img4",
+      imageClass: "m-1 img4 imgConfig",
       city: "Seoul",
       country: "South Korea",
     },
   ];
   let secoundContainer = [
     {
-      numberImage: "m-1 img5",
+      imageClass: "m-1 img5 imgConfig",
       city: "Tokio",
       country: "Japan",
     },
     {
-      numberImage: "m-1 img6",
+      imageClass: "m-1 img6 imgConfig",
       city: "New York",
       country: "USA",
     },
     {
-      numberImage: "m-1 img7",
+      imageClass: "m-1 img7 imgConfig",
       city: "París",
       country: "France",
     },
     {
-      numberImage: "m-1 img8",
+      imageClass: "m-1 img8 imgConfig",
       city: "Seoul",
       country: "South Korea",
     },
   ];
   let thirdContainer = [
     {
-      numberImage: "m-1 img9",
+      imageClass: "m-1 img9 imgConfig",
       city: "Tokio",
       country: "Japan",
     },
     {
-      numberImage: "m-1 img10",
+      imageClass: "m-1 img10 imgConfig",
       city: "New York",
       country: "USA",
     },
     {
-      numberImage: "m-1 img11",
+      imageClass: "m-1 img11 imgConfig",
       city: "París",
       country: "France",
     },
     {
-      numberImage: "m-1 img12",
+      imageClass: "m-1 img12 imgConfig",
       city: "Seoul",
       country: "South Korea",
     },
@@ -89,7 +89,7 @@ function Carousel() {
                 {firsContainer.map((each, key) => (
                   <Urls
                     key={key}
-                    numberImage={each.numberImage}
+                    imageClass={each.imageClass}
                     city={each.city}
                     country={each.country}
                   />
@@ -101,7 +101,7 @@ function Carousel() {
                 {secoundContainer.map((each, key) => (
                   <Urls
                     key={key}
-                    numberImage={each.numberImage}
+                    imageClass={each.imageClass}
                     city={each.city}
                     country={each.country}
                   />
@@ -113,7 +113,7 @@ function Carousel() {
                 {thirdContainer.map((each, key) => (
                   <Urls
                     key={key}
-                    numberImage={each.numberImage}
+                    imageClass={each.imageClass}
                     city={each.city}
                     country={each.country}
                   />

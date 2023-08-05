@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Urls({ numberImage, city, country }) {
+export default function Urls({ imageClass, city, country }) {
   return (
     <>
-      <div className={numberImage}>
+      <div className={imageClass}>
         <div className="textcontainer">
           <p className="imgp">{city}</p>
           <p className="imgsub">{country}</p>
