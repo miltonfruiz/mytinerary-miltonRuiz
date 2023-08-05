@@ -2,22 +2,70 @@ import React, { useState } from "react";
 import Urls from "../Urls";
 
 function Carousel() {
-  let Container = [
+  let firsContainer = [
     {
-      imgContainer: "m-1 img1",
-      textContainer: "textcontainer",
-      mainTitle: "imgp",
+      numberImage: "m-1 img1",
       city: "Tokio",
-      subTitle: "imgsub",
       country: "Japan",
     },
     {
-      imgContainer: "m-1 img2",
-      textContainer: "textcontainer",
-      mainTitle: "imgp",
+      numberImage: "m-1 img2",
+      city: "New York",
+      country: "USA",
+    },
+    {
+      numberImage: "m-1 img3",
+      city: "París",
+      country: "France",
+    },
+    {
+      numberImage: "m-1 img4",
+      city: "Seoul",
+      country: "South Korea",
+    },
+  ];
+  let secoundContainer = [
+    {
+      numberImage: "m-1 img5",
       city: "Tokio",
-      subTitle: "imgsub",
       country: "Japan",
+    },
+    {
+      numberImage: "m-1 img6",
+      city: "New York",
+      country: "USA",
+    },
+    {
+      numberImage: "m-1 img7",
+      city: "París",
+      country: "France",
+    },
+    {
+      numberImage: "m-1 img8",
+      city: "Seoul",
+      country: "South Korea",
+    },
+  ];
+  let thirdContainer = [
+    {
+      numberImage: "m-1 img9",
+      city: "Tokio",
+      country: "Japan",
+    },
+    {
+      numberImage: "m-1 img10",
+      city: "New York",
+      country: "USA",
+    },
+    {
+      numberImage: "m-1 img11",
+      city: "París",
+      country: "France",
+    },
+    {
+      numberImage: "m-1 img12",
+      city: "Seoul",
+      country: "South Korea",
     },
   ];
   let [img, setImg] = useState(1);
@@ -36,9 +84,42 @@ function Carousel() {
       <div>
         {img == 1 || img == 2 || img == 3 ? (
           <>
-            {img == 1 && <p>Paso 1</p>}
-            {img == 2 && <p>Paso 2</p>}
-            {img == 3 && <p>Paso 3</p>}
+            {img == 1 && (
+              <div className="d-flex justify-content-center">
+                {firsContainer.map((each, key) => (
+                  <Urls
+                    key={key}
+                    numberImage={each.numberImage}
+                    city={each.city}
+                    country={each.country}
+                  />
+                ))}
+              </div>
+            )}
+            {img == 2 && (
+              <div className="d-flex justify-content-center">
+                {secoundContainer.map((each, key) => (
+                  <Urls
+                    key={key}
+                    numberImage={each.numberImage}
+                    city={each.city}
+                    country={each.country}
+                  />
+                ))}
+              </div>
+            )}
+            {img == 3 && (
+              <div className="d-flex justify-content-center">
+                {thirdContainer.map((each, key) => (
+                  <Urls
+                    key={key}
+                    numberImage={each.numberImage}
+                    city={each.city}
+                    country={each.country}
+                  />
+                ))}
+              </div>
+            )}
           </>
         ) : (
           <>
