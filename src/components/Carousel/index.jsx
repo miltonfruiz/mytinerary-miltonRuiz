@@ -155,6 +155,9 @@ function Carousel() {
     <>
       {img == 1 || img == 2 || img == 3 ? (
         <>
+          <p className="justify-text-center align-items-center popularTitle">
+            Popular Mytinerary
+          </p>
           {img == 1 && (
             <div className="imgContainer col-4">
               {firsContainer.map((each, key) => (
