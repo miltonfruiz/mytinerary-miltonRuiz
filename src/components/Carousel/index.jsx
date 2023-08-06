@@ -200,9 +200,13 @@ function Carousel() {
           <p>No existe</p>
         </>
       )}
-      <div>
-        <button onClick={() => handlerBack()}>Atras</button>
-        <button onClick={() => handlerUp()}>Adelante</button>
+      <div className="botoncito">
+        <button className="back" onClick={() => handlerBack()}>
+          Atras
+        </button>
+        <button className="up" onClick={() => handlerUp()}>
+          Adelante
+        </button>
       </div>
     </>
   );
