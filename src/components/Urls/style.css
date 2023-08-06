@@ -6,6 +6,7 @@
   opacity: 40%;
   color: white;
   text-align: center;
+  border-radius: 5px;
 }
 .imgp {
   font-size: 14px;
@@ -57,4 +58,5 @@
   height: 230px;
   background-size: cover;
   background-position: center;
+  border-radius: 5px;
 }
