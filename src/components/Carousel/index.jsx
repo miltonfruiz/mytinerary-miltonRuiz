@@ -152,11 +152,11 @@ function Carousel() {
   };
   return (
     <>
-      <div>
+      <div className="justify-content-center d-flex align-items-center">
         {img == 1 || img == 2 || img == 3 ? (
           <>
             {img == 1 && (
-              <div className="d-flex justify-content-center">
+              <div className="row col-4">
                 {firsContainer.map((each, key) => (
                   <Urls
                     key={key}
@@ -168,7 +168,7 @@ function Carousel() {
               </div>
             )}
             {img == 2 && (
-              <div className="d-flex justify-content-center">
+              <div className="row col-4">
                 {secoundContainer.map((each, key) => (
                   <Urls
                     key={key}
@@ -180,7 +180,7 @@ function Carousel() {
               </div>
             )}
             {img == 3 && (
-              <div className="d-flex justify-content-center">
+              <div className="row col-4">
                 {thirdContainer.map((each, key) => (
                   <Urls
                     key={key}
