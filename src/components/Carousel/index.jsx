@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Urls from "../Urls";
+import "./style.css";
 
 function Carousel() {
   let firsContainer = [
@@ -152,54 +153,54 @@ function Carousel() {
   };
   return (
     <>
-      <div className="justify-content-center d-flex align-items-center">
-        {img == 1 || img == 2 || img == 3 ? (
-          <>
-            {img == 1 && (
-              <div className="row col-4">
-                {firsContainer.map((each, key) => (
-                  <Urls
-                    key={key}
-                    imageClass={each.imageClass}
-                    city={each.city}
-                    country={each.country}
-                  />
-                ))}
-              </div>
-            )}
-            {img == 2 && (
-              <div className="row col-4">
-                {secoundContainer.map((each, key) => (
-                  <Urls
-                    key={key}
-                    imageClass={each.imageClass}
-                    city={each.city}
-                    country={each.country}
-                  />
-                ))}
-              </div>
-            )}
-            {img == 3 && (
-              <div className="row col-4">
-                {thirdContainer.map((each, key) => (
-                  <Urls
-                    key={key}
-                    imageClass={each.imageClass}
-                    city={each.city}
-                    country={each.country}
-                  />
-                ))}
-              </div>
-            )}
-          </>
-        ) : (
-          <>
-            <p>No existe</p>
-          </>
-        )}
+      {img == 1 || img == 2 || img == 3 ? (
+        <>
+          {img == 1 && (
+            <div className="imgContainer col-4">
+              {firsContainer.map((each, key) => (
+                <Urls
+                  key={key}
+                  imageClass={each.imageClass}
+                  city={each.city}
+                  country={each.country}
+                />
+              ))}
+            </div>
+          )}
+          {img == 2 && (
+            <div className="imgContainer col-4">
+              {secoundContainer.map((each, key) => (
+                <Urls
+                  key={key}
+                  imageClass={each.imageClass}
+                  city={each.city}
+                  country={each.country}
+                />
+              ))}
+            </div>
+          )}
+          {img == 3 && (
+            <div className="imgContainer col-4">
+              {thirdContainer.map((each, key) => (
+                <Urls
+                  key={key}
+                  imageClass={each.imageClass}
+                  city={each.city}
+                  country={each.country}
+                />
+              ))}
+            </div>
+          )}
+        </>
+      ) : (
+        <>
+          <p>No existe</p>
+        </>
+      )}
+      <div>
+        <button onClick={() => handlerBack()}>Atras</button>
+        <button onClick={() => handlerUp()}>Adelante</button>
       </div>
-      <button onClick={() => handlerBack()}>Atras</button>
-      <button onClick={() => handlerUp()}>Adelante</button>
     </>
   );
 }
