@@ -19,13 +19,13 @@
 }
 .up:hover {
   transition: 1s;
-  transform: scale(1.04);
+  transform: scale(1.01);
   box-shadow: black 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .back:hover {
   transition: 1s;
-  transform: scale(1.04);
+  transform: scale(1.01);
   box-shadow: black 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
