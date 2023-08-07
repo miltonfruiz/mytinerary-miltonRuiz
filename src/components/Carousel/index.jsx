@@ -1,74 +1,9 @@
 import React, { useState } from "react";
 import Urls from "../Urls";
 import "./style.css";
+import { FIRST, SECOND, THIRD } from "../../variables/const";
 
 function Carousel() {
-  let firsContainer = [
-    {
-      imageClass: "m-1 img1 imgConfig",
-      city: "Tokio",
-      country: "Japan",
-    },
-    {
-      imageClass: "m-1 img2 imgConfig",
-      city: "New York",
-      country: "USA",
-    },
-    {
-      imageClass: "m-1 img3 imgConfig",
-      city: "París",
-      country: "France",
-    },
-    {
-      imageClass: "m-1 img4 imgConfig",
-      city: "Seoul",
-      country: "South Korea",
-    },
-  ];
-  let secoundContainer = [
-    {
-      imageClass: "m-1 img5 imgConfig",
-      city: "Tokio",
-      country: "Japan",
-    },
-    {
-      imageClass: "m-1 img6 imgConfig",
-      city: "New York",
-      country: "USA",
-    },
-    {
-      imageClass: "m-1 img7 imgConfig",
-      city: "París",
-      country: "France",
-    },
-    {
-      imageClass: "m-1 img8 imgConfig",
-      city: "Seoul",
-      country: "South Korea",
-    },
-  ];
-  let thirdContainer = [
-    {
-      imageClass: "m-1 img9 imgConfig",
-      city: "Tokio",
-      country: "Japan",
-    },
-    {
-      imageClass: "m-1 img10 imgConfig",
-      city: "New York",
-      country: "USA",
-    },
-    {
-      imageClass: "m-1 img11 imgConfig",
-      city: "París",
-      country: "France",
-    },
-    {
-      imageClass: "m-1 img12 imgConfig",
-      city: "Seoul",
-      country: "South Korea",
-    },
-  ];
   /*let aver = [
     {
       firsContainer: [
@@ -159,7 +94,7 @@ function Carousel() {
             <p className="text-center popularTitle">Popular MYTINERARIES!</p>
             {img == 1 && (
               <div className="imgContainer col-6">
-                {firsContainer.map((each, key) => (
+                {FIRST.map((each, key) => (
                   <Urls
                     key={key}
                     imageClass={each.imageClass}
@@ -171,7 +106,7 @@ function Carousel() {
             )}
             {img == 2 && (
               <div className="imgContainer col-6">
-                {secoundContainer.map((each, key) => (
+                {SECOND.map((each, key) => (
                   <Urls
                     key={key}
                     imageClass={each.imageClass}
@@ -183,7 +118,7 @@ function Carousel() {
             )}
             {img == 3 && (
               <div className="imgContainer col-6">
-                {thirdContainer.map((each, key) => (
+                {THIRD.map((each, key) => (
                   <Urls
                     key={key}
                     imageClass={each.imageClass}
