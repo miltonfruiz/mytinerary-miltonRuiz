@@ -4,6 +4,7 @@ import Urls from "../Urls";
 export default function Map({ container }) {
   return (
     <>
+      <p className="text-center popularTitle">Popular MYTINERARIES!</p>
       <div className="imgContainer col-6">
         {container.map((each, key) => (
           <Urls
