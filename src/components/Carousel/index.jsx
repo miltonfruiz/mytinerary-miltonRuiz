@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Urls from "../Urls";
 import "./style.css";
 import { FIRST, SECOND, THIRD } from "../../variables/const";
+import Map from "../Map";
 
 function Carousel() {
   /*let aver = [
@@ -92,42 +92,9 @@ function Carousel() {
         <>
           <div className="section justify-content-center col-8">
             <p className="text-center popularTitle">Popular MYTINERARIES!</p>
-            {img == 1 && (
-              <div className="imgContainer col-6">
-                {FIRST.map((each, key) => (
-                  <Urls
-                    key={key}
-                    imageClass={each.imageClass}
-                    city={each.city}
-                    country={each.country}
-                  />
-                ))}
-              </div>
-            )}
-            {img == 2 && (
-              <div className="imgContainer col-6">
-                {SECOND.map((each, key) => (
-                  <Urls
-                    key={key}
-                    imageClass={each.imageClass}
-                    city={each.city}
-                    country={each.country}
-                  />
-                ))}
-              </div>
-            )}
-            {img == 3 && (
-              <div className="imgContainer col-6">
-                {THIRD.map((each, key) => (
-                  <Urls
-                    key={key}
-                    imageClass={each.imageClass}
-                    city={each.city}
-                    country={each.country}
-                  />
-                ))}
-              </div>
-            )}
+            {img == 1 && <Map container={FIRST} />}
+            {img == 2 && <Map container={SECOND} />}
+            {img == 3 && <Map container={THIRD} />}
           </div>
         </>
       ) : (
