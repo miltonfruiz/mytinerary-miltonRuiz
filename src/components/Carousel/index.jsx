@@ -155,45 +155,47 @@ function Carousel() {
     <>
       {img == 1 || img == 2 || img == 3 ? (
         <>
-          <p className="justify-text-center align-items-center popularTitle">
-            Popular Mytinerary
-          </p>
-          {img == 1 && (
-            <div className="imgContainer col-4">
-              {firsContainer.map((each, key) => (
-                <Urls
-                  key={key}
-                  imageClass={each.imageClass}
-                  city={each.city}
-                  country={each.country}
-                />
-              ))}
-            </div>
-          )}
-          {img == 2 && (
-            <div className="imgContainer col-4">
-              {secoundContainer.map((each, key) => (
-                <Urls
-                  key={key}
-                  imageClass={each.imageClass}
-                  city={each.city}
-                  country={each.country}
-                />
-              ))}
-            </div>
-          )}
-          {img == 3 && (
-            <div className="imgContainer col-4">
-              {thirdContainer.map((each, key) => (
-                <Urls
-                  key={key}
-                  imageClass={each.imageClass}
-                  city={each.city}
-                  country={each.country}
-                />
-              ))}
-            </div>
-          )}
+          <div className="section">
+            <p className="justify-text-center align-items-center popularTitle">
+              Popular Mytinerary
+            </p>
+            {img == 1 && (
+              <div className="imgContainer col-4">
+                {firsContainer.map((each, key) => (
+                  <Urls
+                    key={key}
+                    imageClass={each.imageClass}
+                    city={each.city}
+                    country={each.country}
+                  />
+                ))}
+              </div>
+            )}
+            {img == 2 && (
+              <div className="imgContainer col-4">
+                {secoundContainer.map((each, key) => (
+                  <Urls
+                    key={key}
+                    imageClass={each.imageClass}
+                    city={each.city}
+                    country={each.country}
+                  />
+                ))}
+              </div>
+            )}
+            {img == 3 && (
+              <div className="imgContainer col-4">
+                {thirdContainer.map((each, key) => (
+                  <Urls
+                    key={key}
+                    imageClass={each.imageClass}
+                    city={each.city}
+                    country={each.country}
+                  />
+                ))}
+              </div>
+            )}
+          </div>
         </>
       ) : (
         <>

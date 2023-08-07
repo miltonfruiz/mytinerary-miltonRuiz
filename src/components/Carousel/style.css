@@ -6,6 +6,7 @@
 .popularTitle {
   margin-top: 150px;
   margin-bottom: 50px;
+  padding-top: 100px;
 }
 .up {
   position: relative;
@@ -28,4 +29,11 @@
   transform: scale(1.01);
   box-shadow: black 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.section {
+  background: url(/public/avion/3.jpg);
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-position: center;
 }
