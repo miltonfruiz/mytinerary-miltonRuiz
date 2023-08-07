@@ -5,7 +5,7 @@ import Carousel from "../Carousel";
 function Main() {
   return (
     <main>
-      <div class="justify-content-center d-flex align-items-center mainClass">
+      <div class="justify-content-center d-flex align-items-center mainClass col-8">
         <div class="col-4 text-start ">
           <h3 class="col mb-4" id="find">
             Find the perfect destination
@@ -20,7 +20,7 @@ function Main() {
           </button>
         </div>
         <div class="col-4 text-end">
-          <img src="src\assets\rectangule.png" alt="fill-img" />
+          <img src="" alt="" />
         </div>
       </div>
       <Carousel />

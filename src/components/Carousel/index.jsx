@@ -155,12 +155,10 @@ function Carousel() {
     <>
       {img == 1 || img == 2 || img == 3 ? (
         <>
-          <div className="section">
-            <p className="justify-text-center align-items-center popularTitle">
-              Popular Mytinerary
-            </p>
+          <div className="section justify-content-center col-8">
+            <p className="text-center popularTitle">Popular MYTINERARIES!</p>
             {img == 1 && (
-              <div className="imgContainer col-4">
+              <div className="imgContainer col-6">
                 {firsContainer.map((each, key) => (
                   <Urls
                     key={key}
@@ -172,7 +170,7 @@ function Carousel() {
               </div>
             )}
             {img == 2 && (
-              <div className="imgContainer col-4">
+              <div className="imgContainer col-6">
                 {secoundContainer.map((each, key) => (
                   <Urls
                     key={key}
@@ -184,7 +182,7 @@ function Carousel() {
               </div>
             )}
             {img == 3 && (
-              <div className="imgContainer col-4">
+              <div className="imgContainer col-6">
                 {thirdContainer.map((each, key) => (
                   <Urls
                     key={key}
@@ -204,10 +202,10 @@ function Carousel() {
       )}
       <div className="botoncito">
         <button className="back" onClick={() => handlerBack()}>
-          Atras
+          A
         </button>
         <button className="up" onClick={() => handlerUp()}>
-          Adelante
+          A
         </button>
       </div>
     </>

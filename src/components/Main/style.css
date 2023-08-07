@@ -5,5 +5,11 @@
   font-size: 12px;
 }
 .mainClass {
+  background: url(/public/vacaciones/vacaciones1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  margin: auto;
   margin-top: 300px;
+  border-radius: 3px;
 }
