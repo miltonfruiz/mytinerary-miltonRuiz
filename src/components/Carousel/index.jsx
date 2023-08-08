@@ -3,35 +3,41 @@ import "./style.css";
 import { IMAGES } from "../../variables/const";
 import Map from "../Map";
 
-function Carousel() {
-  let [img, setImg] = useState(1);
-  let handlerBack = () => {
-    if (img != 1) {
-      setImg(img - 1);
+export default function Carousel() {
+  let [index, setIndex] = useState(1);
+  let handlerPrew = () => {
+    if (index != 1) {
+      setIndex(index - 1);
+    } else {
+      setIndex(index + 2);
     }
   };
-  let handlerUp = () => {
-    if (img != 3) {
-      setImg(img + 1);
+  let handlerNext = () => {
+    if (index != 3) {
+      setIndex(index + 1);
+    } else {
+      setIndex(index - 2);
     }
   };
 
   useEffect(() => {
-    console.log("Efecto!");
-    /*setInterval(() => {
-      handlerUp();
-      handlerBack();
-    }, 1000);*/
-  }, []);
+    let interval = setInterval(() => {
+      handlerNext();
+    }, 4000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, [index]);
 
   return (
     <>
-      {img == 1 || img == 2 || img == 3 ? (
+      {index == 1 || index == 2 || index == 3 ? (
         <>
           <div className="section justify-content-center col-8">
-            {img == 1 && <Map container={IMAGES[0].firsContainer} />}
-            {img == 2 && <Map container={IMAGES[0].secoundContainer} />}
-            {img == 3 && <Map container={IMAGES[0].thirdContainer} />}
+            {index == 1 && <Map container={IMAGES[0].firsContainer} />}
+            {index == 2 && <Map container={IMAGES[0].secoundContainer} />}
+            {index == 3 && <Map container={IMAGES[0].thirdContainer} />}
           </div>
         </>
       ) : (
@@ -40,15 +46,13 @@ function Carousel() {
         </>
       )}
       <div className="botoncito">
-        <button className="back" onClick={() => handlerBack()}>
-          A
+        <button className="prew" onClick={() => handlerPrew()}>
+          P
         </button>
-        <button className="up" onClick={() => handlerUp()}>
-          A
+        <button className="next" onClick={() => handlerNext()}>
+          N
         </button>
       </div>
     </>
   );
 }
-
-export default Carousel;

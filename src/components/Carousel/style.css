@@ -10,24 +10,24 @@
   color: white;
   font-size: 21px;
 }
-.up {
+.next {
   position: relative;
   bottom: 390px;
   left: 260px;
   border-radius: 100px;
 }
-.back {
+.prew {
   position: relative;
   bottom: 390px;
   right: 260px;
 }
-.up:hover {
+.next:hover {
   transition: 1s;
   transform: scale(1.01);
   box-shadow: black 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
-.back:hover {
+.prew:hover {
   transition: 1s;
   transform: scale(1.01);
   box-shadow: black 0px 30px 60px -12px inset,
