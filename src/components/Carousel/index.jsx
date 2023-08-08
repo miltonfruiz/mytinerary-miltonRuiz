@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./style.css";
 import { IMAGES } from "../../variables/const";
 import Map from "../Map";
@@ -15,6 +15,15 @@ function Carousel() {
       setImg(img + 1);
     }
   };
+
+  useEffect(() => {
+    console.log("Efecto!");
+    /*setInterval(() => {
+      handlerUp();
+      handlerBack();
+    }, 1000);*/
+  }, []);
+
   return (
     <>
       {img == 1 || img == 2 || img == 3 ? (
