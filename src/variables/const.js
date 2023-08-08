@@ -69,4 +69,35 @@ const IMAGES = [
   },
 ];
 
-export { IMAGES };
+const LINKS = [
+  {
+    href: "#",
+    styles: "me-4 text-black",
+    tittle: "My Tinerary",
+    position: "col-5 text-start my-tinerary",
+    name: "my-tinerary",
+  },
+  {
+    href: "home.html",
+    styles: "me-4 text-black",
+    tittle: "Home",
+    position: "col-1 text-end home",
+    name: "home",
+  },
+  {
+    href: "cities.html",
+    styles: "me-4 text-black",
+    tittle: "Cities",
+    position: "col-1",
+    name: "cities",
+  },
+  {
+    href: "login.html",
+    styles: "btn btn-primary px-4",
+    tittle: "Login",
+    position: "col-1 login",
+    name: "login",
+  },
+];
+
+export { IMAGES, LINKS };
