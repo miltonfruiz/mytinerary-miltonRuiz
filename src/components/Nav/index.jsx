@@ -3,7 +3,7 @@ import Anchor from "../Anchor";
 import { LINKS } from "../../variables/const";
 import "./style.css";
 
-function Nav() {
+export default function Nav() {
   return (
     <nav>
       <div class="row justify-content-center d-flex align-items-center">
@@ -21,5 +21,3 @@ function Nav() {
     </nav>
   );
 }
-
-export default Nav;

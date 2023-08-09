@@ -1,6 +1,6 @@
 import React from "react";
 
-function Welcome() {
+export default function Welcome() {
   return (
     <div class="justify-content-center d-flex align-items-center mainClass col-8">
       <div class="col-4 text-start ">
@@ -26,5 +26,3 @@ function Welcome() {
     </div>
   );
 }
-
-export default Welcome;
