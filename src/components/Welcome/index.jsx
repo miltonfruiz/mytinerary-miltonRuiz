@@ -3,11 +3,11 @@ import React from "react";
 export default function Welcome() {
   return (
     <div class="justify-content-center d-flex align-items-center mainClass col-8">
-      <div class="col-4 text-start ">
-        <h3 class="col mb-4" id="find">
+      <div class="col-6 text-start ">
+        <h3 class="col-8 mb-4" id="find">
           Find the perfect destination
         </h3>
-        <h6 class="col mb-4 text-start" id="our">
+        <h6 class="col-8 mb-4 text-start" id="our">
           Our app will help you find the perfect path for your next trip. With
           an easy-to-use interface and a host of itinerary options, planning
           your next trip has never been easier.
