@@ -46,14 +46,13 @@ export default function Carousel() {
           <p>No existe</p>
         </>
       )}
-      <div className="botoncito">
-        <button className="prew" onClick={() => handlerPrew()}>
-          <FaChevronLeft />
-        </button>
-        <button className="next" onClick={() => handlerNext()}>
-          <FaChevronRight />
-        </button>
-      </div>
+
+      <button className="prew" onClick={() => handlerPrew()}>
+        <FaChevronLeft size={15} />
+      </button>
+      <button className="next" onClick={() => handlerNext()}>
+        <FaChevronRight size={15} />
+      </button>
     </>
   );
 }

@@ -14,26 +14,27 @@
   position: relative;
   bottom: 390px;
   left: 260px;
-  border-radius: 100px;
   background-color: transparent;
+  color: black;
 }
 .prew {
   position: relative;
   bottom: 390px;
   right: 260px;
   background-color: transparent;
+  color: black;
 }
 .next:hover {
   transition: 1s;
-  transform: scale(1.01);
-  box-shadow: black 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  transform: scale(1.7);
+  color: whitesmoke;
+  border: transparent;
 }
 .prew:hover {
   transition: 1s;
-  transform: scale(1.01);
-  box-shadow: black 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  transform: scale(1.7);
+  color: whitesmoke;
+  border: transparent;
 }
 .section {
   background: url(/public/avion/3.jpg);
