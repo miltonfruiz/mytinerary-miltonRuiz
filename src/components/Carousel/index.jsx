@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import "./style.css";
 import { IMAGES } from "../../variables/const";
 import Map from "../Map";
+import "./style.css";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 export default function Carousel() {
   let [index, setIndex] = useState(1);
@@ -47,10 +48,10 @@ export default function Carousel() {
       )}
       <div className="botoncito">
         <button className="prew" onClick={() => handlerPrew()}>
-          P
+          <FaChevronLeft />
         </button>
         <button className="next" onClick={() => handlerNext()}>
-          N
+          <FaChevronRight />
         </button>
       </div>
     </>

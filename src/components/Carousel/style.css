@@ -15,11 +15,13 @@
   bottom: 390px;
   left: 260px;
   border-radius: 100px;
+  background-color: transparent;
 }
 .prew {
   position: relative;
   bottom: 390px;
   right: 260px;
+  background-color: transparent;
 }
 .next:hover {
   transition: 1s;
