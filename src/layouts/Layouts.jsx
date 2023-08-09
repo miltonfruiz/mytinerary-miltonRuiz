@@ -1,7 +1,10 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 
-function Layouts({ children }) {
-  return <>{children}</>;
+export default function Layouts() {
+  return (
+    <>
+      <Outlet />
+    </>
+  );
 }
-
-export default Layouts;
