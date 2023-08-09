@@ -12,7 +12,11 @@ function Welcome() {
           an easy-to-use interface and a host of itinerary options, planning
           your next trip has never been easier.
         </h6>
-        <button type="button" id="view" class="btn btn-primary px-5 mb-1">
+        <button
+          type="button"
+          id="view"
+          class="btn btn-primary px-5 mb-1 viewBoton"
+        >
           Viem More
         </button>
       </div>

@@ -3,52 +3,52 @@ const IMAGES = [
     firsContainer: [
       {
         imageClass: "m-1 img1 imgConfig",
-        city: "Tokio",
-        country: "Japan",
+        city: "París",
+        country: "Francia",
       },
       {
         imageClass: "m-1 img2 imgConfig",
-        city: "New York",
-        country: "USA",
+        city: "Amsterdam",
+        country: "Holanda",
       },
       {
         imageClass: "m-1 img3 imgConfig",
-        city: "París",
-        country: "France",
+        city: "Venecia",
+        country: "Italia",
       },
       {
         imageClass: "m-1 img4 imgConfig",
-        city: "Seoul",
-        country: "South Korea",
+        city: "Kyoto",
+        country: "Japan",
       },
     ],
     secoundContainer: [
       {
         imageClass: "m-1 img5 imgConfig",
-        city: "Tokio",
-        country: "Japan",
+        city: "Barcelona",
+        country: "España",
       },
       {
         imageClass: "m-1 img6 imgConfig",
-        city: "New York",
-        country: "USA",
+        city: "La Habana",
+        country: "Cuba",
       },
       {
         imageClass: "m-1 img7 imgConfig",
-        city: "París",
-        country: "France",
+        city: "Beirut",
+        country: "Líbano",
       },
       {
         imageClass: "m-1 img8 imgConfig",
-        city: "Seoul",
-        country: "South Korea",
+        city: "Ciudad del Cabo",
+        country: "Sudáfrica",
       },
     ],
     thirdContainer: [
       {
         imageClass: "m-1 img9 imgConfig",
-        city: "Tokio",
-        country: "Japan",
+        city: "Buenas Aires",
+        country: "Argentina",
       },
       {
         imageClass: "m-1 img10 imgConfig",
@@ -57,13 +57,13 @@ const IMAGES = [
       },
       {
         imageClass: "m-1 img11 imgConfig",
-        city: "París",
-        country: "France",
+        city: "Rio de Janeiro",
+        country: "Brasil",
       },
       {
         imageClass: "m-1 img12 imgConfig",
-        city: "Seoul",
-        country: "South Korea",
+        city: "Hamburgo",
+        country: "Alemania",
       },
     ],
   },

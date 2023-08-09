@@ -7,6 +7,7 @@ function Main() {
   return (
     <main>
       <Welcome />
+      <p>Call to action</p>
       <Carousel />
     </main>
   );
