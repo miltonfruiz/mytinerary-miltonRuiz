@@ -2,11 +2,7 @@ import React, { useEffect, useState } from "react";
 import { IMAGES } from "../../variables/const";
 import Map from "../Map";
 import "./style.css";
-import {
-  FaChevronCircleLeft,
-  FaChevronCircleRight,
-  FaChevronRight,
-} from "react-icons/fa";
+import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 
 export default function Carousel() {
   let [index, setIndex] = useState(1);
