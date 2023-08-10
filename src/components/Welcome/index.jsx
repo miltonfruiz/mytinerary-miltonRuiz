@@ -1,4 +1,5 @@
 import React from "react";
+import { FaHandScissors, FaChevronRight, FaHandPointer } from "react-icons/fa";
 
 export default function Welcome() {
   return (
@@ -17,7 +18,11 @@ export default function Welcome() {
           id="view"
           class="btn btn-primary px-5 mb-1 viewBoton"
         >
-          Viem More
+          <p className="viewText">Viem More</p>
+
+          <div>
+            <FaHandPointer size={25} />
+          </div>
         </button>
       </div>
       <div class="col-4 text-end">
