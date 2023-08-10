@@ -15,24 +15,24 @@
   bottom: 390px;
   left: 260px;
   background-color: transparent;
-  color: black;
+  color: white;
 }
 .prew {
   position: relative;
   bottom: 390px;
   right: 260px;
   background-color: transparent;
-  color: black;
+  color: white;
 }
 .next:hover {
   transition: 1s;
-  transform: scale(1.7);
+  transform: scale(1.1);
   color: whitesmoke;
   border: transparent;
 }
 .prew:hover {
   transition: 1s;
-  transform: scale(1.7);
+  transform: scale(1.1);
   color: whitesmoke;
   border: transparent;
 }

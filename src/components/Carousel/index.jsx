@@ -2,7 +2,11 @@ import React, { useEffect, useState } from "react";
 import { IMAGES } from "../../variables/const";
 import Map from "../Map";
 import "./style.css";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import {
+  FaChevronCircleLeft,
+  FaChevronCircleRight,
+  FaChevronRight,
+} from "react-icons/fa";
 
 export default function Carousel() {
   let [index, setIndex] = useState(1);
@@ -46,13 +50,16 @@ export default function Carousel() {
           <p>No existe</p>
         </>
       )}
-
-      <button className="prew" onClick={() => handlerPrew()}>
-        <FaChevronLeft size={15} />
-      </button>
-      <button className="next" onClick={() => handlerNext()}>
-        <FaChevronRight size={15} />
-      </button>
+      <FaChevronCircleLeft
+        size={25}
+        className="prew"
+        onClick={() => handlerPrew()}
+      />
+      <FaChevronCircleRight
+        size={25}
+        className="next"
+        onClick={() => handlerNext()}
+      />
     </>
   );
 }
