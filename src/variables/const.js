@@ -3,18 +3,18 @@ const IMAGES = [
     firsContainer: [
       {
         imageClass: "m-1 img1 imgConfig",
-        city: "París",
-        country: "Francia",
+        city: "Paris",
+        country: "France",
       },
       {
         imageClass: "m-1 img2 imgConfig",
         city: "Amsterdam",
-        country: "Holanda",
+        country: "Holland",
       },
       {
         imageClass: "m-1 img3 imgConfig",
-        city: "Venecia",
-        country: "Italia",
+        city: "Venice",
+        country: "Italy",
       },
       {
         imageClass: "m-1 img4 imgConfig",
@@ -26,22 +26,22 @@ const IMAGES = [
       {
         imageClass: "m-1 img5 imgConfig",
         city: "Barcelona",
-        country: "España",
+        country: "Spain",
       },
       {
         imageClass: "m-1 img6 imgConfig",
-        city: "La Habana",
+        city: "Havana",
         country: "Cuba",
       },
       {
         imageClass: "m-1 img7 imgConfig",
         city: "Beirut",
-        country: "Líbano",
+        country: "Lebanon",
       },
       {
         imageClass: "m-1 img8 imgConfig",
-        city: "Ciudad del Cabo",
-        country: "Sudáfrica",
+        city: "Cape Town",
+        country: "South Africa",
       },
     ],
     thirdContainer: [
@@ -58,12 +58,12 @@ const IMAGES = [
       {
         imageClass: "m-1 img11 imgConfig",
         city: "Rio de Janeiro",
-        country: "Brasil",
+        country: "Brazil",
       },
       {
         imageClass: "m-1 img12 imgConfig",
-        city: "Hamburgo",
-        country: "Alemania",
+        city: "Hamburg",
+        country: "Germany",
       },
     ],
   },
