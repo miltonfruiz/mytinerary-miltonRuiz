@@ -6,9 +6,15 @@ function Footer() {
   return (
     <footer className="row justify-content-center d-flex align-items-center mt-5">
       <div className="contact col-4">
-        <FaInstagram size={30} />
-        <FaFacebook size={30} />
-        <FaWhatsapp size={30} />
+        <a href="https://www.instagram.com/" target="_blank">
+          <FaInstagram size={30} />
+        </a>
+        <a href="ttps://www.facebook.com/" target="_blank">
+          <FaFacebook size={30} />
+        </a>
+        <a href="https://web.whatsapp.com/" target="_blank">
+          <FaWhatsapp size={30} />
+        </a>
       </div>
       <div className="apMern col-4">
         <p className="mt-3">AP MERN 06 TT</p>

@@ -6,7 +6,7 @@ import "./style.css";
 export default function Nav() {
   return (
     <nav>
-      <div class="row justify-content-center d-flex align-items-center">
+      <div class="row justify-content-center d-flex align-items-center navContainer">
         {LINKS.map((each, key) => (
           <Anchor
             key={key}
