@@ -1,5 +1,5 @@
 import React from "react";
-import { FaHandScissors, FaChevronRight, FaHandPointer } from "react-icons/fa";
+import { FaHandPointer } from "react-icons/fa";
 
 export default function Welcome() {
   return (

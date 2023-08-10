@@ -6,3 +6,9 @@
   height: 50px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.hola {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
