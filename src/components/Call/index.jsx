@@ -6,11 +6,11 @@ export default function Call() {
   return (
     <>
       <div className="call">
-        <button href="/Cities" className="btn btn-danger callToAction">
-          <p className="hola">
+        <a href="./cities" className="btn btn-danger callToAction">
+          <p className="click">
             Click for More Info! <FaAngleDoubleRight size={25} />
           </p>
-        </button>
+        </a>
       </div>
     </>
   );
