@@ -48,7 +48,7 @@ export default function Carousel() {
       )}
       <FaChevronCircleLeft
         size={25}
-        className="prew"
+        className="prew "
         onClick={() => handlerPrew()}
       />
       <FaChevronCircleRight

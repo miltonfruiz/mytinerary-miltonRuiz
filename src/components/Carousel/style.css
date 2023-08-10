@@ -16,6 +16,8 @@
   left: 260px;
   background-color: transparent;
   color: white;
+  box-shadow: rgba(86, 228, 221, 0.856) 0px 5px 15px;
+  border-radius: 100%;
 }
 .prew {
   position: relative;
@@ -23,6 +25,9 @@
   right: 260px;
   background-color: transparent;
   color: white;
+  box-shadow: rgba(86, 228, 221, 0.856) 0px 5px 15px;
+  border-radius: 100%;
+  filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
 }
 .next:hover {
   transition: 1s;
